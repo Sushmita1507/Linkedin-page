@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Linkedin Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-left">
+            <a href="index.html" class="logo"><img src="LinkedIn logo.png" alt=""></a>
+
+            <div class="search">
+                <img src="./search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+
+        </div>
+        <div class="nav-center">
+            <ul>
+                <li><a href="#" class="active"><img src="./home.png">Home</a></li>
+                <li><a href="#"><img src="./my network.png">My Network</a></li>
+                <li><a href="#"><img src="./jobs.png">Jobs</a></li>
+                <li><a href="#"><img src="./messaging.png">Messaging</a></li>
+                <li><a href="#"><img src="./notifications.png">Notifications</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="online">
+                <img src="./Profile image.png" class="nav-profile-img">
+                <img src="./drop down.png" onclick="toggleMenu()">
+            </div>
+        </div>
+        <p style="color: black;">Try Premium Free for 1 Month</p>
+
+<!----------------------profile-dropdown-menu----------------------->
+
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="./Profile image.png">
+            <div>
+                <h3>Yash Sharma</h3>
+                <a href="#">See your profile</a>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="./feedback.png">
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="./settings.png">
+            <p>Settings & Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="./help.png">
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="./display.png">
+            <p>Display & Accessibilty</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="./logout.png">
+            <p>Logout</p>
+            <span>></span>
+        </a>
+    </div>
+</div>
+
+ </nav>
+
+ <!---------navbar closed--------->
+
+ <div class="container">
+<!-- -----------------left-side--------------- -->
+    <div class="left-side">
+    <div class="side-profile">
+        <img src="./cover img.jpg" width="100%">
+        <div class="side-profile-info">
+            <img src="./Profile image.png">
+            <h1>Yash Sharma</h1>
+            <h3>Technical Trainer At Skill Academy</h3>
+            <div>
+            <ul>
+                <br>
+                <li>connections <span>30</span></li>
+                <p style="color: black;"><strong>Grow your network</strong></p>
+                <li>Who viewed your profile <span>30</span></li>
+            </ul>
+            </div>
+        </div>
+        <div>
+            <hr>
+                <p class="text">Access exclusive tools and sights</p>
+                <p class="text" style="color: black;"><b>Try premium for one month</b></p></p>
+        </div>
+        <div class="side-profile-link">
+            <a href="#"><img src="./my items.png">My items</a>
+        </div>
+    </div>
+
+    <div class="side-activity">
+        <h3 style="color: black;">Recent</h3>
+        <a href="#"><img src="./recent.png">Tensorflow</a>
+        <a href="#"><img src="./recent.png">Tensorflow</a>
+        <a href="#"><img src="./recent.png">Tensorflow</a>
+        <a href="#"><img src="./recent.png">Tensorflow</a>
+        <a href="#"><img src="./recent.png">Tensorflow</a>
+        <h3>Groups</h3>
+        <a href="#"><img src="./my network.png">Tensorflow</a>
+        <a href="#"><img src="./my network.png">Tensorflow</a>
+        <h3>Followed Hashtags</h3>
+        <a href="#"><img src="./recent.png">Tensorflow</a>
+        <a href="#"><img src="./recent.png">Tensorflow</a>
+    </div>
+    </div>
+<!-- -----------------main-content------------- -->
+    <div class="main-content">
+
+        <div class="create-post">
+            <div class="create-post-input">
+                <img src="./Profile image.png">
+                <textarea rows="2" placeholder="start a post"></textarea>
+            </div>
+            <div class="create-post-links">
+                <li><img src="./photo.png">Photo</li>
+                <li><img src="./video.png">Video</li>
+                <li><img src="./event.png">Event</li>
+                <li><img src="./article.png">Write article</li>
+            </div>
+        </div>
+        <div class="post">
+            <small class="dots"><b>&middot; &middot; &middot;</b></small>
+            <div class="post-author">
+                <img src="./myntra logo.jpg">
+                <div>
+                    <h1>Myntra Fashion</h1>
+                    <small>792,456 Followers</small>
+                    <small>Promoted</small>
+                </div>
+            </div>
+            <img src="./Demo post image.jpg" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="./Like.svg">
+                    <img src="./Appreciate.svg">
+                    <img src="./Clap.svg">
+                    <span class="liked-user">20 . Comments</span>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="post-activity">
+                <div class="post-activity-link">
+                    <img src="./like.png">
+                    <span>Like</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="./comment.png">
+                    <span>Comment</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="./share.png">
+                    <span>Share</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="./send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <small class="dots"><b>&middot; &middot; &middot;</b></small>
+            <div class="post-author">
+                <img src="./Profile logo of yash.jpg">
+                <div>
+                    <h1>Yash Sharma</h1>
+                    <small>10 Million - Followers</small>
+                    <small>Youtube Channel</small>
+                </div>
+            </div>
+            <video width="550" height="300" controls>
+                <source src="./Demo post video.mp4">
+            </video>
+
+            <div class="post-stats">
+                <div>
+                    <img src="./Like.svg">
+                    <img src="./Appreciate.svg">
+                    <img src="./Clap.svg">
+                    <span class="liked-user">20 . Comments</span>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="post-activity">
+                <div class="post-activity-link">
+                    <img src="./like.png">
+                    <span>Like</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="./comment.png">
+                    <span>Comment</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="./share.png">
+                    <span>Share</span>
+                </div>
+
+                <div class="post-activity-link">
+                    <img src="./send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+<!-- -----------------right-side-------------- -->
+    <div class="right-side">
+        <div class="side-news">
+            <img src="./news.png" class="info-icon">
+            <h3>Linkedin News</h3>
+            <ul>
+            <li><a href="#">Indian crosses 3,58,974 daily cases</a></li>
+            <span>10h ago - 5,043 readers</span>
+
+            <li><a href="#">Zomato files for $1.18 IPO</a></li>
+            <span>13h ago - 52,043 readers</span>
+
+            <li><a href="#">Jobs pay ,in IT soar</a></li>
+            <span>1d ago - 7865 readers</span>
+
+            <li><a href="#">Google saving $1B a year from WFH</a></li>
+            <span>2d ago - 7865 readers</span>
+            </ul>
+        </div>
+
+        <div class="side-courses">
+            <img src="./news.png" class="info-icon">
+            <h3>Today's most viewed courses</h3>
+            <ul>
+            <li><a href="#">Indian crosses 3,58,974 daily cases</a></li>
+            <span>Top news 9874 - reviews</span>
+
+            <li><a href="#">Indian crosses 3,58,974 daily cases</a></li>
+            <span>Top news 9874 - reviews</span>
+        </ul>
+        </div>
+
+
+        <div class="side-feed">
+            <img src="./news.png" class="info-icon">
+            <h3>Add to your feed</h3>
+            <img src="./unilever logo.png"  width="20%">
+            <span><b>Unilever</b></span>
+            <p>Company - Consumer Goods</p>
+            <a href="#" class="ad-link">+Follow</a>
+
+
+            <img src="./LinkedIn logo.png" class="linkedin" width="10%">
+            <span class="text1"><b>Linkedin</b></span>
+            <p>Company - Internet</p>
+            <a href="#" class="ad-link">+Follow</a>
+
+
+            <img src="./myntra logo.jpg" class="myntra" width="10%">
+            <span class="text1"><b>Myntra</b></span>
+            <p>Company - Internet</p>
+            <a href="#" class="ad-link">+Follow</a>
+        </div>
+    </div>
+ </div>
+
+<script>
+
+    let profileMenu = document.getElementById("profileMenu")
+
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu")
+    }
+
+</script>
+
+</body>
+</html>
